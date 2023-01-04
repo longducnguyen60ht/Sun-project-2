@@ -1,0 +1,16 @@
+@media only screen and (max-width :767px) {
+    .main__topmix
+    {
+        height: auto;
+    }
+    .topmix__content
+    {
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 2rem;
+    }
+    .main__header
+    {
+        height: auto;
+    }
+}
